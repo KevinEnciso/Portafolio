@@ -1,0 +1,53 @@
+header{
+    background-color: #476bab;
+    align-items: center;
+    color: white;
+    padding: 5px;
+    margin: 20px;
+}
+
+header h1 {
+    font-size: 450%;
+    font-weight: bold;
+    text-align: center;
+}
+
+header p {
+    text-align: justify;
+    color: white;
+    padding: 25px;
+    margin: 0px 200px 0px 200px;
+    font-size: 22px;
+}
+
+.studies-and-training{
+    background-color: dimgrey;
+    margin: 20px;
+    padding: 10px;
+}
+
+.studies-title {
+    font-size: 350%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.studies-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    gap: 30px;
+}
+
+.studies-container div{
+    width: 300px;
+    height: auto;
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    font-size: 22px;
+}
